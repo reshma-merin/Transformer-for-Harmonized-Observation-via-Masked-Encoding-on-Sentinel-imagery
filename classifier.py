@@ -1,12 +1,3 @@
-"""
-Wraps the pretrained MAE ViT-Small encoder with a classification head, in a
-form compatible with transformers.Trainer (forward() accepts pixel_values +
-labels, returns a dict with 'loss' and 'logits').
-
-The MAE decoder is intentionally NOT loaded here -- only the encoder weights
-transfer into fine-tuning, per how MAE pretraining is meant to be used.
-"""
-
 import torch
 import torch.nn as nn
 
