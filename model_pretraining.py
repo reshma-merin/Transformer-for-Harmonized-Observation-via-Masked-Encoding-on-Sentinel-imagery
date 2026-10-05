@@ -1,9 +1,3 @@
-"""
-MAE pretraining loop for the ViT-Small encoder on your 400k Sentinel-2 RGB images.
-
-Adjust ROOT_DIRS, IMG_SIZE, BATCH_SIZE below to match your setup.
-"""
-
 import os
 import time
 import torch
