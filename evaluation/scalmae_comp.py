@@ -1,5 +1,5 @@
 """
-Benchmark your pretrained encoder against Scale-MAE (Reed et al., 2023),
+Benchmark THOMAS against Scale-MAE (Reed et al., 2023),
 using the identical linear-probe protocol already used for your own model.
 
 No intermediate dataset is saved -- images are resized 512->224 on the fly,
