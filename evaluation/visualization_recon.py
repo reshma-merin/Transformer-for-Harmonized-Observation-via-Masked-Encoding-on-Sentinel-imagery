@@ -2,7 +2,7 @@
 Sanity-check the pretrained MAE by visualizing real reconstructions:
 original | masked | reconstructed | reconstructed+visible-pasted-back
 
-Run this against your best checkpoint to see whether the model is learning
+Ran this against the best checkpoint to see whether the model is learning
 genuine structure (edges, terrain texture, cloud boundaries) or just
 predicting a flat mean color per patch (a known MAE degenerate shortcut,
 more likely on low-complexity imagery like homogeneous forest/water scenes).
