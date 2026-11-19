@@ -1,11 +1,7 @@
 """
 Data-efficiency comparison: does MAE pretraining let you reach good
 classification accuracy with LESS labeled data than starting from random
-weights? This is the fast, linear-probe-based equivalent of the
-data-efficiency experiment in Goulao & Oliveira's paper (which used full RL
-training -- infeasible to replicate at that scale here, so we isolate the
-same underlying question -- pretrained vs random features -- using frozen
-encoders + linear probing at increasing labeled-data fractions).
+weights? This is the fast, linear-probe-based equivalent.
 
 Two encoders are compared, both FROZEN (no training of the backbone itself):
   1. PRETRAINED -- your MAE-pretrained ViT-Small encoder
