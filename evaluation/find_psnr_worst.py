@@ -4,7 +4,7 @@ visualize them -- original vs. masked vs. reconstructed -- to check whether
 poor scores come from genuinely hard imagery (e.g. unusual cloud cover) or
 from a data quality issue (corrupted/mismatched image).
 
-Requires: pip install scikit-image matplotlib --break-system-packages
+Note to self requires: pip install scikit-image matplotlib --break-system-packages
 """
 
 import os
